@@ -1,0 +1,582 @@
+html{
+    background-color: #EAE1D7;
+    font-family: 'Roboto Slab', serif;
+    font-size: 62.5%;
+    width: 100%;
+}
+
+body{
+    background-color: #eae1d7;
+    min-height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+    
+.navbar-brand{
+    font-size: 2.5rem;
+}
+
+div.collapse{
+    font-size: 1.5rem;
+    padding: 0px 5px;
+}
+
+.active {
+    padding: 0px 25px;
+}
+
+/*inicio*/
+
+.inicio{
+    background-image: url(../nosotrosimg/inicio.png);
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    max-width: 100%;
+    h1{
+        color: rgb(231, 231, 231);
+        font-size: 3.5rem;
+        padding: 0px 20px;
+        text-shadow: 2px 2px 5px rgb(44, 44, 44);
+    }
+    span{
+        color: #F5F69F;
+    }
+}
+
+.adoptados-inicio{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 0px 0px;
+}
+
+.adoptados-conteiner{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    padding: 40px 0px;
+    justify-items: center;
+    font-size: 1.5rem;
+    .card-text{
+    display: flex;
+    justify-content: center;
+    }
+    .card-img-top{
+        width: 250px;
+        height: 300px;
+        object-fit: cover;
+        filter: brightness(70%);
+        &:hover{
+            filter: brightness(100%);
+        }
+    }
+    .modal-img{
+        width: 100%;
+        }
+}
+
+
+
+/*nosostros*/
+
+.img-thumbnail{
+    width: 400px;
+    padding: 0;
+    border: 0;
+}
+
+.somos{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    background-color: #F5F69F;
+    padding: 20px 30px;
+    .somos-text{
+        padding: 1.5rem;
+        width: auto;
+    }
+    .somos-h2{
+        font-size: 2.5rem;
+        padding: 0px 5px;
+    }
+    .somos-p{
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+}
+
+.fines{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-items: center;
+    background-color: #A09FF6;
+    padding: 20px 30px;
+    .fines-text{
+        padding: 1.5rem;
+    }
+    .fines-h2{
+        font-size: 2.5rem;
+        padding: 0px 5px;
+    }
+    .fines-p{
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+}
+
+.adopciones{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    background-color: #F5F69F;
+    padding: 20px 30px;
+    .adopciones-text{
+        padding: 1.5rem;
+    }
+    .adopciones-h2{
+        font-size: 2.5rem;
+        padding: 0px 5px;
+    }
+    .adopciones-p{
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+}
+
+.finanzas{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-items: center;
+    background-color: #A09FF6;
+    padding: 20px 30px;
+    .finanzas-text{
+        padding: 1.5rem;
+    }
+    .finanzas-h2{
+        font-size: 2.5rem;
+        padding: 0px 5px;
+    }
+    .finanzas-p{
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+}
+
+/*adopción*/
+
+.titulo-adop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #F5F69F;
+}
+
+.perros-gatos{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    padding: 40px 0px;
+    justify-items: center;
+    font-size: 1.5rem;
+}
+
+.btn{
+    background-color: #A09FF6;
+    &:hover{
+        background-color: #9291dd;
+    }
+}
+
+/*perros*/
+
+.perros-main{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    padding: 40px 0px;
+    justify-items: center;
+    font-size: 1.5rem;
+    a{
+        text-decoration: underline;
+        color: royalblue;
+    }
+    .card-img-top{
+        width: 250px;
+        height: 300px;
+        object-fit: cover;
+        filter: brightness(70%);
+        &:hover{
+            filter: brightness(100%);
+        }
+    }
+    .modal-img{
+        width: 100%;
+        }
+}
+
+/*gatos*/
+
+.gatos-main{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    padding: 40px 0px;
+    justify-items: center;
+    font-size: 1.5rem;
+    .card-img-top{
+        width: 250px;
+        height: 300px;
+        object-fit: cover;
+        filter: brightness(70%);
+        &:hover{
+            filter: brightness(100%);
+        }
+    }
+    .modal-img{
+        width: 100%;
+        }
+}
+
+/*compras*/
+
+.titulo-compras{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F69F;
+    padding: 10px;
+}
+
+.cosas{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 40px 0px;
+    justify-items: center;
+    font-size: 1.5rem;
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card-img-top{
+        width: 35rem;
+        height: 35rem;
+        object-fit: cover;
+        filter: brightness(70%);
+        &:hover{
+            filter: brightness(100%);
+        }
+    }
+    .card-title{
+        font-size: 1.7rem;
+    }
+    .modal-title{
+        font-size: 2rem;
+        padding: 10px;
+    }
+    ul{
+        font-size: 1.5rem;
+        list-style: none;
+        padding: 10px;
+    }
+    .modal-img{
+        width: 100%;
+        }
+    .btn{
+            background-color: #A09FF6;
+        &:hover{
+            background-color: #9291dd;
+            }
+            font-size: 1.5rem;
+            width: 230px;
+            margin: 0px 47px;
+    }
+
+}
+
+/*donaciones*/
+
+.titulo-donaciones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #F5F69F;
+}
+
+.datos{
+    display: flex;
+    padding: 10px 30px;
+    font-size: 2rem;
+    .div-ul{
+        padding: 30px 20px;
+        .datos-ul{
+            list-style: none;
+        }
+    }
+}
+
+/*footer*/
+
+footer{
+    width: 100%;
+    margin-top: auto;
+    border-top: 0.1px solid #e5d3be;
+    .g1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 20px 10px;
+    justify-items: center;
+    align-items: center;
+    font-size: 1.5rem;
+    }
+    .logo-footer{
+    width: 70px;
+    height: 70px;
+    }
+    a{
+    font-size: 2.5rem;
+    padding: 3px 5px;
+    &:hover{
+        color: black;
+    }
+    }
+    .g2{
+    width: 100%;
+    background-color: #e5d3be;
+    padding: 15px 10px;
+    text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 1180px){
+    .adoptados-conteiner{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+        padding: 40px 0px;
+        justify-items: center;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1140px){
+    .cosas{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        padding: 40px 0px;
+        justify-items: center;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .somos{
+        grid-template-columns: 1fr 1fr;
+    }
+    .fines{
+        grid-template-columns: 1fr 1fr;
+    }
+    .adopciones{
+        grid-template-columns: 1fr 1fr;
+    }
+    .finanzas{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .perros-main{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+        padding: 40px 0px;
+        justify-items: center;
+        font-size: 1.5rem;
+    }
+    .gatos-main{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+        padding: 40px 0px;
+        justify-items: center;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 965px){
+    
+}
+
+@media screen and (max-width: 930px){
+    .somos{
+        grid-template-columns: 1fr;
+    }
+    .fines{
+        grid-template-columns: 1fr;
+    }
+    .adopciones{
+        grid-template-columns: 1fr;
+    }
+    .finanzas{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .perros-main{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+        padding: 40px 0px;
+        justify-items: center;
+        font-size: 1.5rem;
+    }
+    .gatos-main{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+        padding: 40px 0px;
+        justify-items: center;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 840px){
+    .perros-gatos{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 40px 0px;
+        justify-items: center;
+        font-size: 1.5rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 880px){
+    .adoptados-conteiner{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+        padding: 40px 0px;
+        justify-items: center;
+        font-size: 1.5rem;
+    }
+    
+}
+
+
+@media screen and (max-width: 780px){
+    .cosas{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        padding: 40px 0px;
+        justify-items: center;
+        font-size: 1.5rem;
+    }
+
+    .datos{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 40px 0px;
+        justify-items: center;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 630px){
+    footer{
+    .g1{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px;
+        padding: 20px 10px;
+        justify-items: center;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+    }
+}
+
+@media screen and (max-width: 570px){
+    .adoptados-conteiner{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 40px 0px;
+        justify-items: center;
+        font-size: 1.5rem;
+    }
+    .perros-main{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 40px 0px;
+        justify-items: center;
+        font-size: 1.5rem;
+    }
+    .gatos-main{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 40px 0px;
+        justify-items: center;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 510px){
+    footer{
+    .g1{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 50px;
+        padding: 20px 10px;
+        justify-items: center;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+    }
+}
